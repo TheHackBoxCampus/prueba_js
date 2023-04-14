@@ -1,0 +1,128 @@
+@import url(/style.css);
+@import url(/apps/apps.css);
+
+nav{
+    width: 100%;
+}
+
+/* nav children style*/
+.container1{
+    background-image: url(/images/XiP3qS0.jpg);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    gap: 250px;
+    flex-wrap:nowrap;
+    width:100%;
+    font-size: 25px;
+
+}
+.a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/* Estilo del contenido del carrito*/
+.cart-products{
+    text-align: center;
+    position: absolute!important;
+    top: 40px;
+    right: 18px;
+    background-color: #fff;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    display: none;
+
+    min-width: 290px;
+}
+.cart-products h3{
+    border-bottom: solid 2px rgb(112, 94, 218); ;
+}
+.cart-products img{
+    width: 80px;
+
+}
+.close-btn{
+    text-align: end;
+    font-size: 20px;
+    color: rgb(112, 94, 218);;
+
+}
+.close-btn:hover{
+    cursor: pointer;
+}
+.item{
+    border-bottom: solid 1px rgb(112, 94, 218);
+    margin-top: 10px;
+    padding: 10px;
+}
+.delete-product{
+    margin-top: 5px;
+    padding: 0px 10px 0px 10px;
+    color: rgb(112, 94, 218);
+    font-weight: bold;
+    border: solid 2px rgb(112, 94, 218);
+}
+.delete-product:hover{
+cursor: pointer;
+}
+.item-content{
+    margin-bottom: 5px;
+}
+
+
+/* estilo del titulo imagenes y catalogo */
+.products{
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.carts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.carts img{
+    width: 200px;
+    height: 160px;
+    border-radius: 5px;
+}
+.carts p{
+    font-family: system-ui;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.carts h4 {
+    margin-bottom: 2em;
+}
+
+.carts a{
+    font-family: system-ui;
+    text-decoration: none;
+    background: rgb(112, 94, 218);
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.carts a:hover{
+    background: #fff;
+    color: rgb(112, 94, 218);
+    border: solid 2px rgb(112, 94, 218);
+    transition-duration: .3s;
+}
+
+
+.cart-div span{
+    color: #fff
+}
